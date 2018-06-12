@@ -1,0 +1,200 @@
+section {
+    margin-bottom: 2.5rem;
+}
+
+/*** Header ***/
+
+header {
+    background-image: url(../imgs/headerphotoedit3.jpg); 
+    background-size: cover;
+    margin: 0;
+    height: 400px;
+}
+
+nav {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+}
+
+.navlink {
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: .75rem;
+    padding: 0 10px;
+}
+
+.navlink:hover {
+    color: gold;
+    text-decoration: none;
+}
+
+.navlink span {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom-color 0.5s ease-out;
+}
+
+.navlink span:hover {
+    border-bottom-color: gold;
+}
+
+/*** About Section ***/
+
+#about h3 {
+    text-align: center;
+}
+
+#about-quote {
+    padding-bottom: 1.5rem;
+}
+
+#about-header {
+    padding-bottom: 1.5rem;
+}
+
+/*** Music Section ***/
+
+#music #carouselExampleControls {
+    margin-bottom: 3rem;
+}
+
+#music img {
+    padding-bottom: 2rem;
+}
+
+/*** Music Section: Album Cover Hover Effect ***/
+
+.covering {
+    position: absolute;
+    top: 0; left: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.album-covers:hover .covering {
+    opacity: 0.9;
+}
+
+.background {
+    width: 100%; height: 100%;
+    background: white;
+}
+.foreground {
+    height: 38px;
+    bottom: 0; right: 0;
+    margin: auto;
+    text-align: center;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+/*** Tour Section ***/
+
+#tour {
+    margin: 0 10px;
+}
+
+#tour .col-12 {
+    border-bottom: black solid 0.25rem;
+}
+
+#tour h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#tour p {
+    margin-top: 16px;
+}
+
+.tour-event {
+    border-bottom: black solid 0.09rem;
+}
+
+.tour-event:last-child {
+    border-bottom: black solid 0.25rem;
+}
+
+.date {
+    padding-left: 0;
+}
+
+.venue {
+    text-align: center;
+}
+
+.location {
+    padding-right: 0;
+    text-align: right;
+}
+
+/*** Footer ***/
+
+footer {
+    background-image: url(../imgs/footerphoto1.jpg); 
+    background-size: cover;
+    margin: 0;
+    height: 400px;
+}
+
+/*** Contact Page ***/
+
+#contact h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.75rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.contact-messagebox {
+    margin-top: 1rem;
+}
+
+button {
+    width: 100%;
+}
+
+/*** Contact Page: Social Media Icons ***/
+
+.icons {
+    text-align: center;
+}
+
+.fa {
+    padding: 1rem;
+    font-size: 3rem !important;
+    text-align: center;
+    text-decoration: none;
+    background: transparent;
+    color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    color: gold;
+    text-decoration: none;
+}
+
+/*** Media Queries ***/
+
+@media only screen and (max-width: 991px) {
+    #about-description {
+        display: none;
+    }
+
+    #about-img {
+        display: none;
+    }
+}
+
+
+
